@@ -2,6 +2,12 @@ import firstStep from "../images/app/app-screen-1.png";
 import secondStep from "../images/app/app-screen-2.png";
 import thirdStep from "../images/app/app-screen-3.png";
 
+import logo1 from "../images/logos/business-insider.png";
+import logo2 from "../images/logos/techcrunch.png";
+import logo3 from "../images/logos/forbes.png";
+import logo4 from "../images/logos/the-new-york-times.png";
+import logo5 from "../images/logos/usa-today.png";
+
 export const howItData = [
   {
     step: "01",
@@ -23,5 +29,23 @@ export const howItData = [
     image: thirdStep,
     description:
       "Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!",
+  },
+];
+
+export const logos = [
+  {
+    image: logo1,
+  },
+  {
+    image: logo2,
+  },
+  {
+    image: logo3,
+  },
+  {
+    image: logo4,
+  },
+  {
+    image: logo5,
   },
 ];
