@@ -3,7 +3,7 @@ import { howItData } from "../../data/constants";
 
 export const HowItWorksBox = () => {
   return (
-    <div className="test">
+    <div className="how-it-box">
       {howItData.map(({ step, image, heading, description }, index) => (
         <HowItWorksItem
           key={index}

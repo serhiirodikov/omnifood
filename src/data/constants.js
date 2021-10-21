@@ -8,6 +8,9 @@ import logo3 from "../images/logos/forbes.png";
 import logo4 from "../images/logos/the-new-york-times.png";
 import logo5 from "../images/logos/usa-today.png";
 
+import meal1 from "../images/meals/meal-1.jpg";
+import meal2 from "../images/meals/meal-2.jpg";
+
 export const howItData = [
   {
     step: "01",
@@ -49,3 +52,49 @@ export const logos = [
     image: logo5,
   },
 ];
+
+export const meals = [
+  {
+    image: meal1,
+    tags: ["VEGETARIAN"],
+    title: "Japanese Gyozas",
+    calories: 650,
+    nutriScore: 74,
+    rating: 4.9,
+  },
+  {
+    image: meal2,
+    tags: ["VEGAN", "PALEO"],
+    title: "Avocado Salad",
+    calories: 400,
+    nutriScore: 92,
+    rating: 4.8,
+  },
+];
+
+export const worksWithAnyDiet = [
+  "Vegetarian",
+  "Vegan",
+  "Pescatarian",
+  "Gluten-free",
+  "Lactose-free",
+  "Keto",
+  "Paleo",
+  "Low FODMAP",
+  "Kid-friendly",
+];
+
+export const sectionMainTitle = {
+  howItSection: {
+    subTitle: "HOW IT WORKS",
+    description: "Your daily dose of health in 3 simple steps",
+  },
+  mealsSection: {
+    subTitle: "Meals",
+    description: "Omnifood AI chooses from 5,000+ recipes",
+  },
+  testimonialsSection: {
+    subTitle: "TESTIMONIALS",
+    description: "Once you try it, you can't go back",
+  },
+};

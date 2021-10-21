@@ -1,10 +1,13 @@
-import { HowItWorksHeader } from "../../components/HowItSection/HowItWorksHeader";
 import { HowItWorksBox } from "../../components/HowItSection/HowItWorksBox";
+import { MainSectionTitle } from "../../components/MainSectionTitle";
+import { sectionMainTitle } from "../../data/constants";
 
 export const HowItSection = () => {
+  const { subTitle, description } = sectionMainTitle.howItSection;
+
   return (
     <section className="section-how">
-      <HowItWorksHeader />
+      <MainSectionTitle sectionName={subTitle} description={description} />
       <HowItWorksBox />
     </section>
   );
