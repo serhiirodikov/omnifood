@@ -11,6 +11,24 @@ import logo5 from "../images/logos/usa-today.png";
 import meal1 from "../images/meals/meal-1.jpg";
 import meal2 from "../images/meals/meal-2.jpg";
 
+import ben from "../images/customers/ben.jpg";
+import dave from "../images/customers/dave.jpg";
+import hannah from "../images/customers/hannah.jpg";
+import steve from "../images/customers/steve.jpg";
+
+import gallery1 from "../images/gallery/gallery-1.jpg";
+import gallery2 from "../images/gallery/gallery-2.jpg";
+import gallery3 from "../images/gallery/gallery-3.jpg";
+import gallery4 from "../images/gallery/gallery-4.jpg";
+import gallery5 from "../images/gallery/gallery-5.jpg";
+import gallery6 from "../images/gallery/gallery-6.jpg";
+import gallery7 from "../images/gallery/gallery-7.jpg";
+import gallery8 from "../images/gallery/gallery-8.jpg";
+import gallery9 from "../images/gallery/gallery-9.jpg";
+import gallery10 from "../images/gallery/gallery-10.jpg";
+import gallery11 from "../images/gallery/gallery-11.jpg";
+import gallery12 from "../images/gallery/gallery-12.jpg";
+
 export const howItData = [
   {
     step: "01",
@@ -98,3 +116,45 @@ export const sectionMainTitle = {
     description: "Once you try it, you can't go back",
   },
 };
+
+export const testimonials = [
+  {
+    image: dave,
+    feedback:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    name: "Dave Bryson",
+  },
+  {
+    image: ben,
+    feedback:
+      "The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!",
+    name: "Ben Hadley",
+  },
+  {
+    image: steve,
+    feedback:
+      "Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!",
+    name: "Steve Miller",
+  },
+  {
+    image: hannah,
+    feedback:
+      "I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.",
+    name: "Hannah Smith",
+  },
+];
+
+export const gallery = [
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
+];
