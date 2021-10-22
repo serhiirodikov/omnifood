@@ -4,6 +4,6 @@ export * from "./Star.js";
 export * from "./CheckMark.js";
 export * from "./CloseIcon.js";
 export * from "./Apple.js";
-export * from "./InfinityIcon.js";
+export * from "./InfiIcon.js";
 export * from "./Leaf.js";
 export * from "./Pause.js";

@@ -28,7 +28,7 @@ import gallery9 from "../images/gallery/gallery-9.jpg";
 import gallery10 from "../images/gallery/gallery-10.jpg";
 import gallery11 from "../images/gallery/gallery-11.jpg";
 import gallery12 from "../images/gallery/gallery-12.jpg";
-import { Apple, InfinityIcon, Leaf, Pause } from "../icons";
+import { Apple, InfiIcon, Leaf, Pause } from "../icons";
 
 export const howItData = [
   {
@@ -217,7 +217,7 @@ export const prices = [
 
 export const cookingTips = [
   {
-    icon: InfinityIcon(),
+    icon: InfiIcon(),
     title: "Never cook again!",
     description:
       "Our subscriptions cover 365 days per year, even including major holidays.",
