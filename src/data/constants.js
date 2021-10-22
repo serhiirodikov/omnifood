@@ -28,6 +28,7 @@ import gallery9 from "../images/gallery/gallery-9.jpg";
 import gallery10 from "../images/gallery/gallery-10.jpg";
 import gallery11 from "../images/gallery/gallery-11.jpg";
 import gallery12 from "../images/gallery/gallery-12.jpg";
+import { Apple, InfinityIcon, Leaf, Pause } from "../icons";
 
 export const howItData = [
   {
@@ -115,6 +116,10 @@ export const sectionMainTitle = {
     subTitle: "TESTIMONIALS",
     description: "Once you try it, you can't go back",
   },
+  pricingSection: {
+    subTitle: "PRICING",
+    description: "Eating well without breaking the bank",
+  },
 };
 
 export const testimonials = [
@@ -157,4 +162,82 @@ export const gallery = [
   gallery10,
   gallery11,
   gallery12,
+];
+
+export const prices = [
+  {
+    complete: false,
+    title: "starter",
+    price: 399,
+    description: "per month. That's just $13 per meal!",
+    list: [
+      {
+        available: true,
+        details: "1 meal per day",
+      },
+      {
+        available: true,
+        details: "Order from 11am to 9pm",
+      },
+      {
+        available: true,
+        details: "Delivery is free",
+      },
+      {
+        available: false,
+        details: "Get access to latest recipes",
+      },
+    ],
+  },
+  {
+    complete: true,
+    title: "complete",
+    price: 649,
+    description: "per month. That's just $11 per meal!",
+    list: [
+      {
+        available: true,
+        details: "2 meals per day",
+      },
+      {
+        available: true,
+        details: "Order 24/7.",
+      },
+      {
+        available: true,
+        details: "Delivery is free",
+      },
+      {
+        available: true,
+        details: "Get access to latest recipes",
+      },
+    ],
+  },
+];
+
+export const cookingTips = [
+  {
+    icon: InfinityIcon(),
+    title: "Never cook again!",
+    description:
+      "Our subscriptions cover 365 days per year, even including major holidays.",
+  },
+  {
+    icon: Apple(),
+    title: "Local and organic",
+    description:
+      "Our cooks only use local, fresh, and organic products to prepare your meals.",
+  },
+  {
+    icon: Leaf(),
+    title: "No waste!",
+    description:
+      "All our partners only use reusable containers to package all your meals.",
+  },
+  {
+    icon: Pause(),
+    title: "Pause anytime",
+    description:
+      "Going on vacation? Just pause your subscription, and we refund unused days.",
+  },
 ];
