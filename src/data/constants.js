@@ -241,3 +241,18 @@ export const cookingTips = [
       "Going on vacation? Just pause your subscription, and we refund unused days.",
   },
 ];
+
+export const footerDetails = [
+  {
+    title: "Account",
+    details: ["Create account", "Sign in", "iOS app", "Android app"],
+  },
+  {
+    title: "Company",
+    details: ["About Omnifood", "For Business", "Cooking partners", "Careers"],
+  },
+  {
+    title: "Resources",
+    details: ["Recipe directory", "Help center", "Privacy & terms"],
+  },
+];

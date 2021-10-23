@@ -7,3 +7,6 @@ export * from "./Apple.js";
 export * from "./InfiIcon.js";
 export * from "./Leaf.js";
 export * from "./Pause.js";
+export * from "./Facebook.js";
+export * from "./Twitter.js";
+export * from "./Instagram.js";

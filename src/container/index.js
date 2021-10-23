@@ -5,6 +5,7 @@ import { MealSection } from "./MealSection";
 import { TestimonialsSection } from "./TestimonialsSection";
 import { PricingSection } from "./PricingSection";
 import { ContactSection } from "./ContactSection";
+import { Footer } from "./Footer";
 
 export const OmniFoodMainPage = () => {
   return (
@@ -16,6 +17,7 @@ export const OmniFoodMainPage = () => {
       <TestimonialsSection />
       <PricingSection />
       <ContactSection />
+      <Footer />
     </>
   );
 };
