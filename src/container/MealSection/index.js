@@ -2,11 +2,11 @@ import { MealsBox } from "../../components/MealsBox";
 import { MainSectionTitle } from "../../components/MainSectionTitle";
 import { sectionMainTitle } from "../../data/constants";
 
-export const MealSection = () => {
+export const MealSection = ({ refs, value }) => {
   const { subTitle, description } = sectionMainTitle.mealsSection;
 
   return (
-    <section className="section-meals">
+    <section ref={value === "meals" ? refs : null} className="section-meals">
       <MainSectionTitle
         sectionName={subTitle}
         description={description}

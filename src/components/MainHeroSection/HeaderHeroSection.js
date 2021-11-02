@@ -4,7 +4,7 @@ import customerPhoto3 from "../../images/customers/customer-3.jpg";
 import customerPhoto4 from "../../images/customers/customer-4.jpg";
 import customerPhoto5 from "../../images/customers/customer-5.jpg";
 import customerPhoto6 from "../../images/customers/customer-6.jpg";
-import hero from "../../images/hero.png";
+import hero from "../../images/hero.webp";
 
 export const HeaderHeroSection = () => {
   return (

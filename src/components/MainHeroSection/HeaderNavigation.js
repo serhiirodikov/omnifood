@@ -2,7 +2,7 @@ import omnifoodLogo from "../../images/omnifood-logo.png";
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-export const HeaderNavigation = () => {
+export const HeaderNavigation = ({ handleClick }) => {
   const [isOpen, setIsOpen] = useState(false);
   const media = useMediaQuery({ query: "(max-width: 944px)" });
 
@@ -11,16 +11,36 @@ export const HeaderNavigation = () => {
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>
-            <a href="/">How it works</a>
+            <a
+              href="/"
+              name="howItWorks"
+              onClick={(e) => handleClick(e, setIsOpen)}
+            >
+              How it works
+            </a>
           </li>
           <li>
-            <a href="/">Meals</a>
+            <a name="meals" onClick={(e) => handleClick(e, setIsOpen)} href="/">
+              Meals
+            </a>
           </li>
           <li>
-            <a href="/">Testimonials</a>
+            <a
+              name="testimonials"
+              onClick={(e) => handleClick(e, setIsOpen)}
+              href="/"
+            >
+              Testimonials
+            </a>
           </li>
           <li>
-            <a href="/">Pricing</a>
+            <a
+              name="pricing"
+              onClick={(e) => handleClick(e, setIsOpen)}
+              href="/"
+            >
+              Pricing
+            </a>
           </li>
           <li>
             <button className="btn btn--full padding-sm">Try for free</button>

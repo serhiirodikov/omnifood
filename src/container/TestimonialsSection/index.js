@@ -1,9 +1,12 @@
 import { Testimonials } from "../../components/TestimonialsSection/Testimonials";
 import { Gallery } from "../../components/TestimonialsSection/Gallery";
 
-export const TestimonialsSection = () => {
+export const TestimonialsSection = ({ refs, value }) => {
   return (
-    <section className="section-testimonials">
+    <section
+      ref={value === "testimonials" ? refs : null}
+      className="section-testimonials"
+    >
       <Testimonials />
       <Gallery />
     </section>

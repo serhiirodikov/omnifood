@@ -1,10 +1,10 @@
 import { HeaderNavigation } from "../../components/MainHeroSection/HeaderNavigation";
 import { HeaderHeroSection } from "../../components/MainHeroSection/HeaderHeroSection";
 
-export const MainHeroSection = () => {
+export const MainHeroSection = ({ handleClick }) => {
   return (
     <>
-      <HeaderNavigation />
+      <HeaderNavigation handleClick={handleClick} />
       <HeaderHeroSection />
     </>
   );
